@@ -16,7 +16,7 @@ const Form = () => {
   }
   return (
     <>
-    <form action="" className='flex flex-col items-center gap-6 bg-white h-[400px] mx-2 w-full p-6 rounded-3xl rounded-br-[30%] lg:w-1/3 lg:w-[530px] ' onSubmit={(e) => handleInput(e)}>
+    <form action="" className='flex flex-col items-center gap-6 bg-white h-[400px] w-full p-6 rounded-3xl rounded-br-[30%] lg:w-1/3 lg:w-[530px] ' onSubmit={(e) => handleInput(e)}>
         <div id="inputs" className='flex gap-3 w-full lg:w-full'>
             <label className='uppercase flex flex-col text-slate-400 text-sm' htmlFor="day">day<input placeholder='DD' required className='text-black border-2 w-full h-8 p-2 font-bold [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none lg:w-28' type="number" name='day'  /></label>
             <label className='uppercase flex flex-col text-slate-400 text-sm' htmlFor="month">month<input placeholder='MM' required className='text-black border-2 w-full h-8 p-2 font-bold [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none lg:w-28' type="number" name='month'  /></label>
