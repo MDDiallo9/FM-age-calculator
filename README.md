@@ -13,8 +13,6 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -35,7 +33,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://raw.githubusercontent.com/MDDiallo9/FM-age-calculator/main/screen.png)
 
 ### Links
 
@@ -43,6 +41,9 @@ Users should be able to:
 - Live Site URL: [Link](https://fm-age-calculator-five.vercel.app/)
 
 ## My process
+
+I looked up a library to get the duration from a given date to the current day , I quickly found date-fns and the necessary functions using the official documentation.
+I then started working on the mobile layout using tailwind , I also worked on a simple 3 input form to get the user's date of birth.
 
 ### Built with
 
@@ -53,7 +54,13 @@ Users should be able to:
 
 ### What I learned
 
-This frontend mentor project helped me understand react and TailwindCSS better. I was surprised by how much time I saved by using tailwind.
+This frontend mentor project helped me understand React and TailwindCSS better. I was surprised by how much time I saved by using tailwind.
+
+### Useful Ressources
+
+- Date-fns documentation : [Link](https://date-fns.org/v2.16.1/docs/Duration)
+- TailwindCSS cheat sheet : [Link](https://tailwindcomponents.com/cheatsheet/)
+- React Documentation : [Link](https://react.dev/)
 
 
 
